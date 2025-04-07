@@ -12,8 +12,8 @@ function dynamics365_OnChange(executionContext) {
     // Vérifier si le champ "name" contient une valeur
     /*
     var accountName = formContext.getAttribute("name").getValue();
-    if (accountName && accountName.toLowerCase().includes("d4dynamics")) {
-        formContext.getAttribute("websiteurl").setValue("https://www.d4dynamics.com");
+    if (accountName && accountName.toLowerCase().includes("dynamics")) {
+        formContext.getAttribute("websiteurl").setValue("https://www.dynamics365.com");
         formContext.getAttribute("telephone1").setValue("92-000-11001100");
         formContext.getAttribute("description").setValue("Website URL, Phone, and Description set using custom script.");
     }
